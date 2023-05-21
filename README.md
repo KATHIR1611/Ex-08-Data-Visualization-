@@ -196,6 +196,87 @@ df_corr = df_corr[["Sales","Profit","Segment","Ship Mode","Region"]]
 df_corr.corr()
 ```
 # OUPUT
+
+Data Pre-Processing
+
+![](z1.png)
+
+![](z2.png)
+
+![](z3.png)
+
+![](z4.png)
+
+![](z5.png)
+
+![](z6.png)
+
+![](z7.png)
+
+![](z8.png)
+
+Segment With Highest Sales
+
+![](z9.png)
+
+![](z10.png)
+
+City with Highest Profit
+
+![](z11.png)
+
+![](z12.png)
+
+Profitable Ship Mode
+
+![](z13.png)
+
+![](z14.png)
+
+![](z13.png)
+
+![](z14.png)
+
+Sales Of The Product Based On Region
+ 
+![](z15.png)
+ 
+![](z16.png)
+ 
+Relation Between Sales And Profit
+ 
+![](z17.png)
+ 
+ [](z18.png)
+ 
+![](z19.png)
+ 
+Heatmap
+ 
+![](z20.png)
+
+Relation Between Sales And Profit Based On The Following Category
+
+1.Segment
+
+![](z21.png)
+
+2.City
+
+![](z22.png)
+
+3.States
+
+![](z23.png)
+
+Segment and Ship Mode
+
+![](z24.png)
+
+
+
+
+# Result
 Thus using the given dataset data visualization is performed for following questions.
 
 
