@@ -196,7 +196,7 @@ df_corr = df_corr[["Sales","Profit","Segment","Ship Mode","Region"]]
 df_corr.corr()
 ```
 # OUPUT
-
+Thus using the given dataset data visualization is performed for following questions.
 
 
 
