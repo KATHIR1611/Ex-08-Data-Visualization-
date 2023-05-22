@@ -233,48 +233,49 @@ Profitable Ship Mode
 
 ![](z14.png)
 
-![](z13.png)
+![](z15.png)
 
-![](z14.png)
+![](z16.png)
 
 Sales Of The Product Based On Region
  
-![](z15.png)
+![](z17.png)
  
-![](z16.png)
+![](z18.png)
  
 Relation Between Sales And Profit
  
-![](z17.png)
- 
- [](z18.png)
- 
 ![](z19.png)
+ 
+ [](z20.png)
+ 
+![](z21.png)
  
 Heatmap
  
-![](z20.png)
+![](z22.png)
 
 Relation Between Sales And Profit Based On The Following Category
 
 1.Segment
 
-![](z21.png)
+![](z23.png)
 
 2.City
 
-![](z22.png)
+![](z24.png)
 
 3.States
 
-![](z23.png)
+![](z25.png)
 
 Segment and Ship Mode
 
-![](z24.png)
+![](z26.png)
 
+Segment,Ship Mode And Region
 
-
+![](z27.png)
 
 # Result
 Thus using the given dataset data visualization is performed for following questions.
