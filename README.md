@@ -163,37 +163,63 @@ plt.show()
 
 Segment
 ```
-df_corr = df5.copy()
-df_corr = df_corr[["Sales","Profit","Segment"]]
-df_corr.corr()
+grouped_data = df.groupby('Segment')[['Sales', 'Profit']].mean()
+fig, ax = plt.subplots()
+ax.bar(grouped_data.index, grouped_data['Sales'], label='Sales')
+ax.bar(grouped_data.index, grouped_data['Profit'], bottom=grouped_data['Sales'], label='Profit')
+ax.set_xlabel('Segment')
+ax.set_ylabel('Value')
+ax.legend()
+plt.show()
 ```
 
 City
 ```
-df_corr = df5.copy()
-df_corr = df_corr[["Sales","Profit","City"]]
-df_corr.corr()
+grouped_data = df.groupby('City')[['Sales', 'Profit']].mean()
+fig, ax = plt.subplots()
+ax.bar(grouped_data.index, grouped_data['Sales'], label='Sales')
+ax.bar(grouped_data.index, grouped_data['Profit'], bottom=grouped_data['Sales'], label='Profit')
+ax.set_xlabel('City')
+ax.set_ylabel('Value')
+ax.legend()
+plt.show()
 ```
 
 States
 ```
-df_corr = df5.copy()
-df_corr = df_corr[["Sales","Profit","State"]]
-df_corr.corr()
+grouped_data = df.groupby('State')[['Sales', 'Profit']].mean()
+fig, ax = plt.subplots()
+ax.bar(grouped_data.index, grouped_data['Sales'], label='Sales')
+ax.bar(grouped_data.index, grouped_data['Profit'], bottom=grouped_data['Sales'], label='Profit')
+ax.set_xlabel('State')
+ax.set_ylabel('Value')
+ax.legend()
+plt.show()
 ```
 
 Segment and Ship Mode
 ```
-df_corr = df5.copy()
-df_corr = df_corr[["Sales","Profit","Segment","Ship Mode"]]
-df_corr.corr()
+grouped_data = df.groupby(['Segment', 'Ship Mode'])[['Sales', 'Profit']].mean()
+pivot_data = grouped_data.reset_index().pivot(index='Segment', columns='Ship Mode', values=['Sales', 'Profit'])
+fig, ax = plt.subplots()
+pivot_data.plot(kind='bar', ax=ax)
+ax.set_xlabel('Segment')
+ax.set_ylabel('Value')
+plt.legend(title='Ship Mode')
+plt.show()
 ```
 
 Segment, Ship mode and Region
 ```
-df_corr = df5.copy()
-df_corr = df_corr[["Sales","Profit","Segment","Ship Mode","Region"]]
-df_corr.corr()
+grouped_data = df.groupby(['Segment', 'Ship Mode','Region'])[['Sales', 'Profit']].mean()
+pivot_data = grouped_data.reset_index().pivot(index=['Segment', 'Ship Mode'], columns='Region', values=['Sales', 'Profit'])
+sns.set_style("whitegrid")
+sns.set_palette("Set1")
+pivot_data.plot(kind='bar', stacked=True, figsize=(10, 5))
+plt.xlabel('Segment - Ship Mode')
+plt.ylabel('Value')
+plt.legend(title='Region')
+plt.show()
 ```
 # OUPUT
 
