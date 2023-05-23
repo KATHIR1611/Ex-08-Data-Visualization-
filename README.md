@@ -239,69 +239,62 @@ Data Pre-Processing
 
 ![](z7.png)
 
-![](z8.png)
 
 Segment With Highest Sales
 
+![](z8.png)
+
 ![](z9.png)
+
+City with Highest Profit
 
 ![](z10.png)
 
-City with Highest Profit
+Profitable Ship Mode
 
 ![](z11.png)
 
 ![](z12.png)
 
-Profitable Ship Mode
-
 ![](z13.png)
 
 ![](z14.png)
 
+Sales Of The Product Based On Region
+ 
 ![](z15.png)
 
 ![](z16.png)
-
-Sales Of The Product Based On Region
- 
-![](z17.png)
- 
-![](z18.png)
  
 Relation Between Sales And Profit
  
-![](z19.png)
- 
- [](z20.png)
- 
-![](z21.png)
+![](z17.png)
  
 Heatmap
  
-![](z22.png)
+![](z18.png)
 
 Relation Between Sales And Profit Based On The Following Category
 
 1.Segment
 
-![](z23.png)
+![](z19.png)
 
 2.City
 
-![](z24.png)
+![](z20.png)
 
 3.States
 
-![](z25.png)
+![](z21.png)
 
-Segment and Ship Mode
+4.Segment and Ship Mode
 
-![](z26.png)
+![](z22.png)
 
-Segment,Ship Mode And Region
+5.Segment,Ship Mode And Region
 
-![](z27.png)
+![](z23.png)
 
 # Result
 Thus using the given dataset data visualization is performed for following questions.
